@@ -1,0 +1,14 @@
+{
+    "name": "totemsport/plugin",
+    "description": "TotemSport Plugin with Google Drive integration",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "google/apiclient": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "TotemSport\\": "includes/"
+        }
+    }
+}
